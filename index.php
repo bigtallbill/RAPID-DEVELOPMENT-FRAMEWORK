@@ -9,7 +9,7 @@ include_once 'app/config/siteConfig.php';
 
 // index, main controller to load the other views
 
-// url parametr t get the page, p for page.
+// url parameter to get the page, p for page.
 if (isset($_GET['p']))
 {
     $page = $_GET['p'];
