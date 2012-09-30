@@ -17,12 +17,12 @@ switch ($page)
 {
 	case "login":
             // include view
-            require_once 'views/login.php';
+            require_once '/app/views/login.php';
 	break;    
 
 	default:
             // include view
-            require_once 'views/login.php';
+            require_once '/app/views/login.php';
     break;
 }
              
