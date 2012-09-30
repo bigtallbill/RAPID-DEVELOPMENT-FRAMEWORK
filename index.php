@@ -26,7 +26,12 @@ switch ($page)
 	case "font-awesome":
             // include view
             require_once 'app/views/awesome.php';
-	break;    
+	break;   
+
+	case "bootstrap":
+            // include view
+            require_once 'app/views/bootstrap.php';
+	break;     
 
 	default:
             // redirect back to login - a good start.

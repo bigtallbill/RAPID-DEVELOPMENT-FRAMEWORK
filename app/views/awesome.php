@@ -15,9 +15,9 @@ include_once '../config/siteConfig.php';
   <!-- Basic Page Needs
  ================================================== -->
   <meta charset="utf-8" />
-  <title>Font Awesome, the iconic font designed for use with Twitter Bootstrap</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title><?php echo APP_NAME; ?></title>
+  <meta name="description" content="Font Awesome, the iconic font designed for use with Twitter Bootstrap">
+  <meta name="author" content="<?php echo APP_AUTHOR; ?>">
 <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -25,8 +25,8 @@ include_once '../config/siteConfig.php';
   <!-- CSS
  ================================================== -->
 
-  <link rel="stylesheet" href="<?php echo APP_FULLPATH; ?>global/css/site.css">
-  <link rel="stylesheet" href="<?php echo APP_FULLPATH; ?>global/css/prettify.css">
+  <link rel="stylesheet" href="<?php echo APP_FULLPATH; ?>modules/font-awesome/css/site.css">
+  <link rel="stylesheet" href="<?php echo APP_FULLPATH; ?>modules/font-awesome/css/prettify.css">
 <!--[if IE 7]>
   <link rel="stylesheet" href="assets/css/font-awesome-ie7.css">
 <![endif]-->
