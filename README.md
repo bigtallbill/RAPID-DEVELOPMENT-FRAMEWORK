@@ -4,6 +4,8 @@ INFO
 Created by the @marketmesuite team. An open source project. Please feel free to fork this project and improve it.
 http://marketmesuite.com/
 
+MarketMeSuite is built on the first version of the RDF, one which has evolved over time. This is a new RDF being developed with everything we've learned. With the orignal RDF we were able to get a prototype of MarketMeSuite in just a few days whilst other functionality followed.
+
 NOTE: This framework is not ready to use yet. It's still being set up. Only download if you are looking to contribute to the project.
 
 @TODO
