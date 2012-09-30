@@ -1,7 +1,7 @@
 <?php
 
 // include some resource you might need
-
+include_once '../config/siteConfig.php';
 
 ?>
 
@@ -25,8 +25,8 @@
   <!-- CSS
  ================================================== -->
 
-  <link rel="stylesheet" href="../app/tmpl/global/css/site.css">
-  <link rel="stylesheet" href="../app/tmpl/global/css/prettify.css">
+  <link rel="stylesheet" href="<?php echo APP_FULLPATH; ?>global/css/site.css">
+  <link rel="stylesheet" href="<?php echo APP_FULLPATH; ?>global/css/prettify.css">
 <!--[if IE 7]>
   <link rel="stylesheet" href="assets/css/font-awesome-ie7.css">
 <![endif]-->
