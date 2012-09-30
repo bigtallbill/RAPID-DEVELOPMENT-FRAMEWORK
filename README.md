@@ -4,6 +4,15 @@ INFO
 Created by the @marketmesuite team. An open source project. Please feel free to fork this project and improve it.
 http://marketmesuite.com/
 
+NOTE: This framework is not ready to use yet. It's still being set up. Only download if you are looking to contribute to the project.
+
+@TODO
+=====
+- Login Module
+- Base classes for frequently used stuff (nothing too heavy).
+- Icon set (awesome icon set)
+- Stylesheet / stylesheet page. Probably bootstrap.
+
 RAPID DEVELOPMENT FRAMEWORK
 ===========================
 
