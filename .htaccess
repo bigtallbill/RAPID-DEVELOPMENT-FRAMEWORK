@@ -5,7 +5,7 @@ AddType application/x-javascript .js
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
-	RewriteRule ^(login) /?p=$1 [L]
+	RewriteRule ^(login|font-awesome) /?p=$1 [L]
 </IfModule>
 
 DirectoryIndex index.php

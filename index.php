@@ -21,6 +21,11 @@ switch ($page)
 	case "login":
             // include view
             require_once 'app/views/login.php';
+	break; 
+	
+	case "font-awesome":
+            // include view
+            require_once 'app/views/awesome.php';
 	break;    
 
 	default:
