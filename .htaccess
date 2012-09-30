@@ -1,0 +1,39 @@
+AddType application/x-httpd-php .php .htm .html
+AddHandler application/x-httpd-php .html .php .htm
+AddType application/x-javascript .js
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+	RewriteRule ^(login) /?p=$1 [L]
+</IfModule>
+
+DirectoryIndex index.php
+
+<ifModule mod_deflate.c>
+	<filesMatch "\.(js|css|php|html)$">
+		SetOutputFilter DEFLATE
+	</filesMatch>
+</ifModule>
+
+# 480 weeks
+<filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=290304000, public"
+</filesMatch>
+ 
+# 2 DAYS
+<filesMatch "\.(xml|txt)$">
+Header set Cache-Control "max-age=172800, public, must-revalidate"
+</filesMatch>
+ 
+# 2 HOURS
+<filesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=7200, must-revalidate"
+</filesMatch>
+
+php_value magic_quotes 0
+php_flag magic_quotes off
+php_value magic_quotes_gpc 0
+php_flag magic_quotes_gpc off
+php_value session.gc_maxlifetime 21600
+php_value session.cookie_lifetime 259200
