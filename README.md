@@ -20,9 +20,10 @@ A super lightweight framework, to get projects going, but not heavy enough that 
 Just 'Download & Go!'.
 
 
-Project AIMS
+PROJECT AIMS
 ============
 
+- Not a heavy framework for php, like cake, codeigniter etc. Anyone should be able to pick this up without reading doucmentation.
 - Provide a sensible structure in which to build new applications
 - Provide a set of resources, icons, style sheets, to get started fast.
 - Adhere to MVC (model view controller) principles as well as possible.
