@@ -4,9 +4,12 @@
  * 
  */
 
+// includes to relevant files
+include_once 'app/config/siteConfig.php';
+
 // index, main controller to load the other views
 
-// url parametr t get the page
+// url parametr t get the page, p for page.
 if (isset($_GET['p']))
 {
     $page = $_GET['p'];
@@ -21,8 +24,8 @@ switch ($page)
 	break;    
 
 	default:
-            // include view
-            require_once 'app/views/login.php';
+            // redirect back to login - a good start.
+            header('location:'.APP_URL.'/login/');
     break;
 }
              
